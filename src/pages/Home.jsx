@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import Header from "../components/Header";
 
 const Home = () => {
@@ -8,6 +9,15 @@ const Home = () => {
                 <Header></Header>
             </header>
 
+            <main>
+                
+            </main>
+
+
+            {/* footer section */}
+            <footer>
+                <Footer></Footer>
+            </footer>
             
         </div>
     );
