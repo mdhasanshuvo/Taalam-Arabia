@@ -1,4 +1,3 @@
-import React from 'react';
 import CountUp from 'react-countup';
 
 const Success = () => {
@@ -9,7 +8,7 @@ const Success = () => {
                 <div className="grid grid-cols-2 sm:grid-cols-4 gap-8">
                     {/* User Count */}
                     <div className="stat">
-                        <div className="stat-title">Users</div>
+                        <div className="stat-title text-black font-medium">Users</div>
                         <div className="stat-value">
                             <CountUp start={0} end={1250} duration={2.5} separator="," />
                         </div>
@@ -17,7 +16,7 @@ const Success = () => {
 
                     {/* Lesson Count */}
                     <div className="stat">
-                        <div className="stat-title">Lessons</div>
+                        <div className="stat-title text-black font-medium">Lessons</div>
                         <div className="stat-value">
                             <CountUp start={0} end={45} duration={2.5} separator="," />
                         </div>
@@ -25,7 +24,7 @@ const Success = () => {
 
                     {/* Vocabulary Count */}
                     <div className="stat">
-                        <div className="stat-title">Vocabulary</div>
+                        <div className="stat-title text-black font-medium">Vocabulary</div>
                         <div className="stat-value">
                             <CountUp start={0} end={1200} duration={2.5} separator="," />
                         </div>
@@ -33,7 +32,7 @@ const Success = () => {
 
                     {/* Tutorial Count */}
                     <div className="stat">
-                        <div className="stat-title">Tutorials</div>
+                        <div className="stat-title text-black font-medium">Tutorials</div>
                         <div className="stat-value">
                             <CountUp start={0} end={35} duration={2.5} separator="," />
                         </div>

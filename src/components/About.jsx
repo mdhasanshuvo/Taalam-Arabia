@@ -1,9 +1,7 @@
-import React from 'react';
-
 const About = () => {
     return (
-        <section className="py-10  bg-gradient-to-b from-base-200 to-base-100 text-base-content">
-            <div className="container mx-auto text-center max-w-3xl px-4">
+        <section className="py-20  bg-gradient-to-b from-base-200 to-base-100 text-base-content">
+            <div className="container mx-auto text-center max-w-3xl px-4 space-y-12">
                 <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6">About </h2>
                 <p className="text-sm md:text-lg mb-6">
                     Lingo Bingo’s mission is to make learning Arabic vocabulary simple, engaging, and accessible.
