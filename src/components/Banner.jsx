@@ -2,7 +2,7 @@ import React from 'react';
 
 const Banner = () => {
     return (
-        <div className="carousel w-full flex">
+        <div className="carousel w-full flex container mx-auto">
             <div id="slide1" className="carousel-item relative w-full">
                 <img
                     src="https://img.freepik.com/free-vector/arabic-lesson-with-tutor-teacher-vector_570502-53.jpg"
