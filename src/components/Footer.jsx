@@ -8,7 +8,9 @@ const Footer = () => {
                     <aside className='text-base'>
                         <h2 className='footer-title'>Contact us</h2>
                         <p  >
-                            <span className='font-bold'>Talam Arabia</span>
+                            <span className='font-bold'>Lingo Bingo</span>
+                            <br />
+                            An Arabic Vocabulary Learning Application
                             <br />
                             Providing support since 2024
                             <br />
@@ -58,7 +60,7 @@ const Footer = () => {
                 </div>
             </footer>
             <aside>
-                <p className='bg-neutral text-white text-center pb-5 px-1'>Copyright © {new Date().getFullYear()} - All right reserved by ACME Industries Ltd</p>
+                <p className='bg-neutral text-white text-center pb-5 px-1'>Copyright © {new Date().getFullYear()} - All right reserved by Lingo Bingo</p>
             </aside>
         </div>
     );

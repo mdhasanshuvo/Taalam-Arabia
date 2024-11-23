@@ -1,3 +1,4 @@
+import About from "../components/About";
 import Banner from "../components/Banner";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
@@ -15,6 +16,9 @@ const Home = () => {
             </header>
 
             <main>
+            {/* About section */}
+            <About></About>
+
 
             </main>
 
