@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 
 
-const Header = () => {
+const Navbar = () => {
     const list = <>
         <li><NavLink to='/'>Home</NavLink></li>
         <li><NavLink to='/learning'>Start-Learning</NavLink></li>
@@ -48,4 +48,4 @@ const Header = () => {
     );
 };
 
-export default Header;
+export default Navbar;

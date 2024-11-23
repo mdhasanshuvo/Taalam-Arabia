@@ -1,16 +1,21 @@
+import Banner from "../components/Banner";
 import Footer from "../components/Footer";
-import Header from "../components/Header";
+import Navbar from "../components/Navbar";
 
 const Home = () => {
     return (
         <div>
             {/* Header section */}
             <header>
-                <Header></Header>
+                <Navbar></Navbar>
+
+                {/* Banner section */}
+                <Banner></Banner>
+
             </header>
 
             <main>
-                
+
             </main>
 
 
