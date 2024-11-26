@@ -1,0 +1,113 @@
+[
+    {
+      "id": "word041",
+      "word": "مكتب",
+      "pronunciation": "maktab",
+      "meaning": "office",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 5,
+      "when_to_say": "Used to describe a place of work.",
+      "example": "أذهب إلى المكتب كل يوم. (adhhab ila al-maktab kul yawm.) - I go to the office every day."
+    },
+    {
+      "id": "word042",
+      "word": "مكتبة",
+      "pronunciation": "maktaba",
+      "meaning": "library",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 5,
+      "when_to_say": "Used to describe a place where books are kept.",
+      "example": "أحب القراءة في المكتبة. (uhibb al-qira'a fi al-maktaba.) - I love reading in the library."
+    },
+    {
+      "id": "word043",
+      "word": "مدرسة",
+      "pronunciation": "madrasa",
+      "meaning": "school",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 5,
+      "when_to_say": "Used to describe an educational institution.",
+      "example": "المدرسة قريبة من هنا. (al-madrasa qariba min huna.) - The school is close to here."
+    },
+    {
+      "id": "word044",
+      "word": "جامعة",
+      "pronunciation": "jamia'a",
+      "meaning": "university",
+      "part_of_speech": "noun",
+      "difficulty": "medium",
+      "lesson_no": 5,
+      "when_to_say": "Used to describe a higher education institution.",
+      "example": "أنا طالب في الجامعة. (ana talib fi al-jami'a.) - I am a student at the university."
+    },
+    {
+      "id": "word045",
+      "word": "محاضرة",
+      "pronunciation": "muhadara",
+      "meaning": "lecture",
+      "part_of_speech": "noun",
+      "difficulty": "medium",
+      "lesson_no": 5,
+      "when_to_say": "Used to describe an educational talk or class.",
+      "example": "كانت المحاضرة مثيرة. (kanat al-muhadara muthira.) - The lecture was interesting."
+    },
+    {
+      "id": "word046",
+      "word": "دورة",
+      "pronunciation": "dawra",
+      "meaning": "course",
+      "part_of_speech": "noun",
+      "difficulty": "medium",
+      "lesson_no": 5,
+      "when_to_say": "Used to refer to a set of lessons on a particular subject.",
+      "example": "أنا أدرس دورة في البرمجة. (ana adrus dawratan fi al-barmaja.) - I am taking a course in programming."
+    },
+    {
+      "id": "word047",
+      "word": "طالب",
+      "pronunciation": "talib",
+      "meaning": "student",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 5,
+      "when_to_say": "Used to describe a person who is learning at an institution.",
+      "example": "أنا طالب في المدرسة. (ana talib fi al-madrasa.) - I am a student at the school."
+    },
+    {
+      "id": "word048",
+      "word": "معلم",
+      "pronunciation": "mu'allim",
+      "meaning": "teacher",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 5,
+      "when_to_say": "Used to refer to a person who teaches.",
+      "example": "المعلم يشرح الدرس. (al-mu'allim yashrah al-dars.) - The teacher explains the lesson."
+    },
+    {
+      "id": "word049",
+      "word": "درس",
+      "pronunciation": "dars",
+      "meaning": "lesson",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 5,
+      "when_to_say": "Used to refer to a unit of learning in education.",
+      "example": "الدرس كان صعبا. (al-dars kan sa'ban.) - The lesson was difficult."
+    },
+    {
+      "id": "word050",
+      "word": "اختبار",
+      "pronunciation": "ikhtibar",
+      "meaning": "exam",
+      "part_of_speech": "noun",
+      "difficulty": "medium",
+      "lesson_no": 5,
+      "when_to_say": "Used to refer to a formal assessment.",
+      "example": "اختبار الرياضيات كان سهلا. (ikhtibar al-riyadiyat kan sahlan.) - The math exam was easy."
+    }
+  ]
+  

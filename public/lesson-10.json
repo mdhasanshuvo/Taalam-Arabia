@@ -1,0 +1,113 @@
+[
+    {
+      "id": "word091",
+      "word": "شمس",
+      "pronunciation": "shams",
+      "meaning": "sun",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 10,
+      "when_to_say": "Used to refer to the star at the center of the solar system.",
+      "example": "الشمس مشرقة اليوم. (al-shams mushriqa al-yawm.) - The sun is shining today."
+    },
+    {
+      "id": "word092",
+      "word": "قمر",
+      "pronunciation": "qamar",
+      "meaning": "moon",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 10,
+      "when_to_say": "Used to refer to the natural satellite of Earth.",
+      "example": "القمر في السماء. (al-qamar fi al-sama') - The moon is in the sky."
+    },
+    {
+      "id": "word093",
+      "word": "سماء",
+      "pronunciation": "sama'",
+      "meaning": "sky",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 10,
+      "when_to_say": "Used to refer to the expanse above the Earth.",
+      "example": "السماء صافية اليوم. (al-sama' ṣāfiya al-yawm.) - The sky is clear today."
+    },
+    {
+      "id": "word094",
+      "word": "مطر",
+      "pronunciation": "maṭar",
+      "meaning": "rain",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 10,
+      "when_to_say": "Used to refer to water droplets falling from the sky.",
+      "example": "كان هناك مطر غزير أمس. (kāna hunāka maṭar ghazīr ams.) - There was heavy rain yesterday."
+    },
+    {
+      "id": "word095",
+      "word": "ثلج",
+      "pronunciation": "thalj",
+      "meaning": "snow",
+      "part_of_speech": "noun",
+      "difficulty": "medium",
+      "lesson_no": 10,
+      "when_to_say": "Used to refer to frozen water crystals falling from the sky.",
+      "example": "يحب الأطفال اللعب في الثلج. (yuḥibbu al-aṭfāl al-la'ba fi al-thalj.) - Children love playing in the snow."
+    },
+    {
+      "id": "word096",
+      "word": "هواء",
+      "pronunciation": "hawa'",
+      "meaning": "air",
+      "part_of_speech": "noun",
+      "difficulty": "medium",
+      "lesson_no": 10,
+      "when_to_say": "Used to refer to the invisible gaseous substance that surrounds the Earth.",
+      "example": "الهواء منعش اليوم. (al-hawā' muna'ish al-yawm.) - The air is refreshing today."
+    },
+    {
+      "id": "word097",
+      "word": "رياح",
+      "pronunciation": "riyāḥ",
+      "meaning": "winds",
+      "part_of_speech": "noun",
+      "difficulty": "medium",
+      "lesson_no": 10,
+      "when_to_say": "Used to refer to moving air.",
+      "example": "الرياح قوية اليوم. (al-riyāḥ qawīya al-yawm.) - The winds are strong today."
+    },
+    {
+      "id": "word098",
+      "word": "غيم",
+      "pronunciation": "ghaym",
+      "meaning": "cloud",
+      "part_of_speech": "noun",
+      "difficulty": "medium",
+      "lesson_no": 10,
+      "when_to_say": "Used to refer to visible masses of condensed water vapor in the sky.",
+      "example": "السماء مليئة بالغيم. (al-sama' malī'a bi al-ghaym.) - The sky is full of clouds."
+    },
+    {
+      "id": "word099",
+      "word": "عاصفة",
+      "pronunciation": "ʿāṣifa",
+      "meaning": "storm",
+      "part_of_speech": "noun",
+      "difficulty": "hard",
+      "lesson_no": 10,
+      "when_to_say": "Used to refer to a violent disturbance of the atmosphere.",
+      "example": "كانت هناك عاصفة قوية. (kānat hunāka ʿāṣifa qawīya.) - There was a strong storm."
+    },
+    {
+      "id": "word100",
+      "word": "حرارة",
+      "pronunciation": "ḥarāra",
+      "meaning": "heat",
+      "part_of_speech": "noun",
+      "difficulty": "hard",
+      "lesson_no": 10,
+      "when_to_say": "Used to refer to the degree of warmth.",
+      "example": "الحرارة مرتفعة اليوم. (al-ḥarāra murtafi'a al-yawm.) - The heat is high today."
+    }
+  ]
+  

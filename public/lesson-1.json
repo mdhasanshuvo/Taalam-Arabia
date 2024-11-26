@@ -1,0 +1,115 @@
+[
+    {
+      "id": "word001",
+      "word": "مرحبا",
+      "pronunciation": "marhaban",
+      "meaning": "hello",
+      "part_of_speech": "interjection",
+      "difficulty": "easy",
+      "lesson_no": 1,
+      "when_to_say": "Used to greet someone informally.",
+      "example": "مرحبا! كيف حالك؟ (marhaban! kaifa haluka?) - Hello! How are you?"
+    },
+    {
+      "id": "word002",
+      "word": "شكرا",
+      "pronunciation": "shukran",
+      "meaning": "thank you",
+      "part_of_speech": "expression",
+      "difficulty": "easy",
+      "lesson_no": 1,
+      "when_to_say": "Used to express gratitude.",
+      "example": "شكرا لمساعدتك! (shukran limusa'adatik!) - Thank you for your help!"
+    },
+    {
+      "id": "word003",
+      "word": "وداعا",
+      "pronunciation": "wada'an",
+      "meaning": "goodbye",
+      "part_of_speech": "expression",
+      "difficulty": "easy",
+      "lesson_no": 1,
+      "when_to_say": "Used to say goodbye.",
+      "example": "وداعا! سأراك لاحقا. (wada'an! sa'araka lahiqan.) - Goodbye! See you later."
+    },
+    {
+      "id": "word004",
+      "word": "نعم",
+      "pronunciation": "na'am",
+      "meaning": "yes",
+      "part_of_speech": "adverb",
+      "difficulty": "easy",
+      "lesson_no": 1,
+      "when_to_say": "Used to affirm or agree.",
+      "example": "نعم، أوافق. (na'am, uwafiq.) - Yes, I agree."
+    },
+    {
+      "id": "word005",
+      "word": "لا",
+      "pronunciation": "laa",
+      "meaning": "no",
+      "part_of_speech": "adverb",
+      "difficulty": "easy",
+      "lesson_no": 1,
+      "when_to_say": "Used to disagree or negate.",
+      "example": "لا، لا أفهم. (laa, laa afham.) - No, I don't understand."
+    },
+    {
+      "id": "word006",
+      "word": "صباح الخير",
+      "pronunciation": "sabah al-khayr",
+      "meaning": "good morning",
+      "part_of_speech": "expression",
+      "difficulty": "easy",
+      "lesson_no": 1,
+      "when_to_say": "Used to greet someone in the morning.",
+      "example": "صباح الخير! (sabah al-khayr!) - Good morning!"
+    },
+    {
+      "id": "word007",
+      "word": "مساء الخير",
+      "pronunciation": "masa' al-khayr",
+      "meaning": "good evening",
+      "part_of_speech": "expression",
+      "difficulty": "easy",
+      "lesson_no": 1,
+      "when_to_say": "Used to greet someone in the evening.",
+      "example": "مساء الخير! كيف كان يومك؟ (masa' al-khayr! kaifa kana yawmuka?) - Good evening! How was your day?"
+    },
+    {
+      "id": "word008",
+      "word": "كيف حالك؟",
+      "pronunciation": "kaifa haluka?",
+      "meaning": "how are you?",
+      "part_of_speech": "question",
+      "difficulty": "easy",
+      "lesson_no": 1,
+      "when_to_say": "Used to ask someone about their well-being.",
+      "example": "كيف حالك اليوم؟ (kaifa haluka al-yawm?) - How are you today?"
+    },
+    {
+      "id": "word009",
+      "word": "مع السلامة",
+      "pronunciation": "ma'a as-salama",
+      "meaning": "go in peace",
+      "part_of_speech": "expression",
+      "difficulty": "easy",
+      "lesson_no": 1,
+      "when_to_say": "Used to bid someone farewell with good wishes.",
+      "example": "مع السلامة! (ma'a as-salama!) - Goodbye!"
+    },
+    {
+      "id": "word010",
+      "word": "عفوا",
+      "pronunciation": "afwan",
+      "meaning": "you're welcome",
+      "part_of_speech": "expression",
+      "difficulty": "easy",
+      "lesson_no": 1,
+      "when_to_say": "Used to respond to someone thanking you.",
+      "example": "عفوا، لا شكر على واجب. (afwan, la shukra 'ala wajib.) - You're welcome, no thanks needed."
+    }
+  
+  
+  ]
+  

@@ -1,0 +1,113 @@
+[
+    {
+      "id": "word061",
+      "word": "مكتبة",
+      "pronunciation": "maktaba",
+      "meaning": "library",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 7,
+      "when_to_say": "Used to refer to a place where books are kept for reading or borrowing.",
+      "example": "أذهب إلى المكتبة كل يوم. (adhhab ila al-maktaba kulla yom.) - I go to the library every day."
+    },
+    {
+      "id": "word062",
+      "word": "كتاب",
+      "pronunciation": "kitaab",
+      "meaning": "book",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 7,
+      "when_to_say": "Used to refer to a physical or digital publication with text.",
+      "example": "أحب قراءة الكتب. (uhibbu qira'at al-kutub.) - I love reading books."
+    },
+    {
+      "id": "word063",
+      "word": "قلم",
+      "pronunciation": "qalam",
+      "meaning": "pen",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 7,
+      "when_to_say": "Used to refer to an instrument for writing.",
+      "example": "أحتاج إلى قلم. (ahtaj ila qalam.) - I need a pen."
+    },
+    {
+      "id": "word064",
+      "word": "محو",
+      "pronunciation": "maḥw",
+      "meaning": "eraser",
+      "part_of_speech": "noun",
+      "difficulty": "medium",
+      "lesson_no": 7,
+      "when_to_say": "Used to describe an object for removing marks from paper.",
+      "example": "لقد ضاعت الممحاة. (laqad da'at al-mimḥa.) - The eraser is lost."
+    },
+    {
+      "id": "word065",
+      "word": "دراسة",
+      "pronunciation": "dirasa",
+      "meaning": "study",
+      "part_of_speech": "noun",
+      "difficulty": "medium",
+      "lesson_no": 7,
+      "when_to_say": "Used to refer to the act of learning or reviewing information.",
+      "example": "أقوم بالدراسة في المكتبة. (aqoom bil-dirasa fi al-maktaba.) - I study in the library."
+    },
+    {
+      "id": "word066",
+      "word": "محاضرة",
+      "pronunciation": "muḥādira",
+      "meaning": "lecture",
+      "part_of_speech": "noun",
+      "difficulty": "medium",
+      "lesson_no": 7,
+      "when_to_say": "Used to describe an educational talk or lesson.",
+      "example": "حضرت محاضرة في الجامعة. (ḥaḍarat muḥādira fi al-jami'a.) - I attended a lecture at the university."
+    },
+    {
+      "id": "word067",
+      "word": "جامعة",
+      "pronunciation": "jami'a",
+      "meaning": "university",
+      "part_of_speech": "noun",
+      "difficulty": "medium",
+      "lesson_no": 7,
+      "when_to_say": "Used to refer to a higher education institution.",
+      "example": "أنا طالب في الجامعة. (ana talib fi al-jami'a.) - I am a student at the university."
+    },
+    {
+      "id": "word068",
+      "word": "دكتوراه",
+      "pronunciation": "duktura",
+      "meaning": "Ph.D., doctorate",
+      "part_of_speech": "noun",
+      "difficulty": "medium",
+      "lesson_no": 7,
+      "when_to_say": "Used to describe an advanced academic degree.",
+      "example": "هو حاصل على درجة الدكتوراه. (huwa hasel 'ala darajat al-duktura.) - He has a Ph.D."
+    },
+    {
+      "id": "word069",
+      "word": "مقالة",
+      "pronunciation": "maqala",
+      "meaning": "article",
+      "part_of_speech": "noun",
+      "difficulty": "medium",
+      "lesson_no": 7,
+      "when_to_say": "Used to describe a written work, typically a short piece on a specific topic.",
+      "example": "قرأت مقالة عن التكنولوجيا. (qara'at maqala 'an al-tilijulujia.) - I read an article about technology."
+    },
+    {
+      "id": "word070",
+      "word": "مراجعة",
+      "pronunciation": "muraja'a",
+      "meaning": "review",
+      "part_of_speech": "noun",
+      "difficulty": "medium",
+      "lesson_no": 7,
+      "when_to_say": "Used to describe the act of going over something for revision.",
+      "example": "أحتاج إلى مراجعة دروسي. (ahtaj ila muraja'a doroosi.) - I need to review my lessons."
+    }
+  ]
+  

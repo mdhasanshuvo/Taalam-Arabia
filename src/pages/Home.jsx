@@ -3,6 +3,7 @@ import Banner from "../components/Banner";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Success from "../components/Success";
+import TestimonialSection from "../components/Testimonial";
 
 const Home = () => {
     return (
@@ -22,6 +23,10 @@ const Home = () => {
 
             {/* Success section */}
             <Success></Success>
+
+
+            {/* testimonial section */}
+            <TestimonialSection></TestimonialSection>
 
 
             </main>

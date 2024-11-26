@@ -1,0 +1,113 @@
+[
+    {
+      "id": "word081",
+      "word": "كتاب",
+      "pronunciation": "kitaab",
+      "meaning": "book",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 9,
+      "when_to_say": "Used to refer to a set of written, printed, or blank pages.",
+      "example": "أنا أقرأ كتابًا جديدًا. (ana aqra' kitaaban jadeedan.) - I am reading a new book."
+    },
+    {
+      "id": "word082",
+      "word": "قلم",
+      "pronunciation": "qalam",
+      "meaning": "pen",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 9,
+      "when_to_say": "Used to refer to an instrument for writing.",
+      "example": "لقد فقدت قلمي. (laqad faqadtu qalamii.) - I lost my pen."
+    },
+    {
+      "id": "word083",
+      "word": "دفتر",
+      "pronunciation": "daftar",
+      "meaning": "notebook",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 9,
+      "when_to_say": "Used to refer to a book for writing notes.",
+      "example": "لدي دفتر جديد. (ladayya daftar jadeed.) - I have a new notebook."
+    },
+    {
+      "id": "word084",
+      "word": "ممحاة",
+      "pronunciation": "mimhaa",
+      "meaning": "eraser",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 9,
+      "when_to_say": "Used to refer to a tool for removing pencil marks.",
+      "example": "أحتاج إلى ممحاة. (ahtaaju ila mimhaa.) - I need an eraser."
+    },
+    {
+      "id": "word085",
+      "word": "مسطرة",
+      "pronunciation": "misṭara",
+      "meaning": "ruler",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 9,
+      "when_to_say": "Used to refer to a tool used to measure length or draw straight lines.",
+      "example": "أين المسطرة؟ (ayna al-misṭara?) - Where is the ruler?"
+    },
+    {
+      "id": "word086",
+      "word": "لوحة",
+      "pronunciation": "lawḥa",
+      "meaning": "board",
+      "part_of_speech": "noun",
+      "difficulty": "medium",
+      "lesson_no": 9,
+      "when_to_say": "Used to refer to a flat surface used for writing or displaying information.",
+      "example": "اللوحة نظيفة. (al-lawḥa naẓīfa.) - The board is clean."
+    },
+    {
+      "id": "word087",
+      "word": "مكتبة",
+      "pronunciation": "maktaba",
+      "meaning": "library",
+      "part_of_speech": "noun",
+      "difficulty": "medium",
+      "lesson_no": 9,
+      "when_to_say": "Used to refer to a place where books are kept.",
+      "example": "أنا ذاهب إلى المكتبة. (ana dhaahib ila al-maktaba.) - I am going to the library."
+    },
+    {
+      "id": "word088",
+      "word": "جامعة",
+      "pronunciation": "jaami'a",
+      "meaning": "university",
+      "part_of_speech": "noun",
+      "difficulty": "medium",
+      "lesson_no": 9,
+      "when_to_say": "Used to refer to an institution for higher education.",
+      "example": "الجامعة كبيرة. (al-jaami'a kabeera.) - The university is large."
+    },
+    {
+      "id": "word089",
+      "word": "فصل",
+      "pronunciation": "faṣl",
+      "meaning": "classroom",
+      "part_of_speech": "noun",
+      "difficulty": "medium",
+      "lesson_no": 9,
+      "when_to_say": "Used to refer to a room where lessons are taught.",
+      "example": "الفصل نظيف ومرتب. (al-faṣl naẓīf wa murattab.) - The classroom is clean and organized."
+    },
+    {
+      "id": "word090",
+      "word": "دراسة",
+      "pronunciation": "dirāsa",
+      "meaning": "study",
+      "part_of_speech": "noun",
+      "difficulty": "medium",
+      "lesson_no": 9,
+      "when_to_say": "Used to refer to the activity of learning or reviewing information.",
+      "example": "أحتاج إلى وقت للدراسة. (aḥtāju ila waqt lil-dirāsa.) - I need time for studying."
+    }
+  ]
+  

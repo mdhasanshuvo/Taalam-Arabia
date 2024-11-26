@@ -1,0 +1,113 @@
+[
+    {
+      "id": "word051",
+      "word": "مستشفى",
+      "pronunciation": "mustashfa",
+      "meaning": "hospital",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 6,
+      "when_to_say": "Used to refer to a medical facility.",
+      "example": "أنا في المستشفى. (ana fi al-mustashfa.) - I am at the hospital."
+    },
+    {
+      "id": "word052",
+      "word": "طبيب",
+      "pronunciation": "tabib",
+      "meaning": "doctor",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 6,
+      "when_to_say": "Used to refer to a medical professional.",
+      "example": "الطبيب يعالج المرضى. (al-tabib yu'alej al-marda.) - The doctor treats the patients."
+    },
+    {
+      "id": "word053",
+      "word": "مريض",
+      "pronunciation": "marid",
+      "meaning": "sick, patient",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 6,
+      "when_to_say": "Used to refer to a person who is ill.",
+      "example": "هو مريض في السرير. (huwa marid fi al-sareer.) - He is sick in bed."
+    },
+    {
+      "id": "word054",
+      "word": "دواء",
+      "pronunciation": "dawa'a",
+      "meaning": "medicine",
+      "part_of_speech": "noun",
+      "difficulty": "medium",
+      "lesson_no": 6,
+      "when_to_say": "Used to refer to a substance used for medical treatment.",
+      "example": "أحتاج إلى دواء. (ahtaj ila dawa'a.) - I need medicine."
+    },
+    {
+      "id": "word055",
+      "word": "ألم",
+      "pronunciation": "alam",
+      "meaning": "pain",
+      "part_of_speech": "noun",
+      "difficulty": "medium",
+      "lesson_no": 6,
+      "when_to_say": "Used to describe physical or emotional suffering.",
+      "example": "أشعر بألم في رأسي. (ash'ur bi'alam fi ra'si.) - I have a pain in my head."
+    },
+    {
+      "id": "word056",
+      "word": "علاج",
+      "pronunciation": "ilaj",
+      "meaning": "treatment",
+      "part_of_speech": "noun",
+      "difficulty": "medium",
+      "lesson_no": 6,
+      "when_to_say": "Used to describe medical care given to a patient.",
+      "example": "العلاج ضروري للشفاء. (al-ilaj daruri lil-shifa') - Treatment is necessary for recovery."
+    },
+    {
+      "id": "word057",
+      "word": "جراحة",
+      "pronunciation": "jarah",
+      "meaning": "surgery",
+      "part_of_speech": "noun",
+      "difficulty": "medium",
+      "lesson_no": 6,
+      "when_to_say": "Used to describe a medical operation.",
+      "example": "لقد خضع لعملية جراحية. (laqad khadha'a li 'amaliya jaraheya.) - He underwent surgery."
+    },
+    {
+      "id": "word058",
+      "word": "فحص",
+      "pronunciation": "fahs",
+      "meaning": "examination",
+      "part_of_speech": "noun",
+      "difficulty": "medium",
+      "lesson_no": 6,
+      "when_to_say": "Used to describe the process of medical evaluation.",
+      "example": "أجريت فحصا طبيا. (ajrayt fahsan tibyan.) - I had a medical examination."
+    },
+    {
+      "id": "word059",
+      "word": "صحة",
+      "pronunciation": "siha",
+      "meaning": "health",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 6,
+      "when_to_say": "Used to refer to a person's physical and mental condition.",
+      "example": "الصحة مهمة. (al-siha muhimma.) - Health is important."
+    },
+    {
+      "id": "word060",
+      "word": "حالة",
+      "pronunciation": "hala",
+      "meaning": "condition",
+      "part_of_speech": "noun",
+      "difficulty": "medium",
+      "lesson_no": 6,
+      "when_to_say": "Used to refer to the state of a person or thing.",
+      "example": "حالتي الصحية جيدة. (halati al-sihiya jayyida.) - My health condition is good."
+    }
+  ]
+  

@@ -1,0 +1,113 @@
+[
+    {
+      "id": "word011",
+      "word": "اسم",
+      "pronunciation": "ism",
+      "meaning": "name",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 2,
+      "when_to_say": "Used when introducing or identifying someone or something.",
+      "example": "ما اسمك؟ (ma ismuka?) - What is your name?"
+    },
+    {
+      "id": "word012",
+      "word": "كتاب",
+      "pronunciation": "kitab",
+      "meaning": "book",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 2,
+      "when_to_say": "Used to refer to a book or written material.",
+      "example": "أريد شراء كتاب. (uridu shira' kitab.) - I want to buy a book."
+    },
+    {
+      "id": "word013",
+      "word": "طاولة",
+      "pronunciation": "tawila",
+      "meaning": "table",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 2,
+      "when_to_say": "Used to describe furniture.",
+      "example": "هذه طاولة خشبية. (hadhihi tawila khashabiyya.) - This is a wooden table."
+    },
+    {
+      "id": "word014",
+      "word": "جميل",
+      "pronunciation": "jamil",
+      "meaning": "beautiful",
+      "part_of_speech": "adjective",
+      "difficulty": "easy",
+      "lesson_no": 2,
+      "when_to_say": "Used to describe something aesthetically pleasing.",
+      "example": "هذا منظر جميل. (hatha manzar jamil.) - This is a beautiful view."
+    },
+    {
+      "id": "word015",
+      "word": "المدرسة",
+      "pronunciation": "al-madrasa",
+      "meaning": "school",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 2,
+      "when_to_say": "Used to refer to an educational institution.",
+      "example": "المدرسة تبدأ الساعة الثامنة. (al-madrasa tabda' al-sa'ah al-thamina.) - School starts at 8 o'clock."
+    },
+    {
+      "id": "word016",
+      "word": "قلم",
+      "pronunciation": "qalam",
+      "meaning": "pen",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 2,
+      "when_to_say": "Used to refer to a writing tool.",
+      "example": "أحتاج قلم للكتابة. (ahtaj qalam lilkitaba.) - I need a pen to write."
+    },
+    {
+      "id": "word017",
+      "word": "سرير",
+      "pronunciation": "sarir",
+      "meaning": "bed",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 2,
+      "when_to_say": "Used to refer to a piece of furniture for sleeping.",
+      "example": "هذا السرير مريح. (hatha al-sarir murih.) - This bed is comfortable."
+    },
+    {
+      "id": "word018",
+      "word": "منزل",
+      "pronunciation": "manzil",
+      "meaning": "house",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 2,
+      "when_to_say": "Used to refer to a place of residence.",
+      "example": "المنزل قريب من هنا. (al-manzil qarib min huna.) - The house is close to here."
+    },
+    {
+      "id": "word019",
+      "word": "نافذة",
+      "pronunciation": "nafiza",
+      "meaning": "window",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 2,
+      "when_to_say": "Used to refer to an opening for light or air.",
+      "example": "النافذة مفتوحة. (al-nafiza maftuha.) - The window is open."
+    },
+    {
+      "id": "word020",
+      "word": "كرسي",
+      "pronunciation": "kursi",
+      "meaning": "chair",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 2,
+      "when_to_say": "Used to refer to a piece of furniture for sitting.",
+      "example": "هذا الكرسي مريح. (hatha al-kursi murih.) - This chair is comfortable."
+    }
+  ]
+  

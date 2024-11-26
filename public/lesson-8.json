@@ -1,0 +1,113 @@
+[
+    {
+      "id": "word071",
+      "word": "شجرة",
+      "pronunciation": "shajara",
+      "meaning": "tree",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 8,
+      "when_to_say": "Used to refer to a large plant with a trunk and branches.",
+      "example": "الشجرة في الحديقة جميلة. (al-shajra fi al-hadiqa jameela.) - The tree in the garden is beautiful."
+    },
+    {
+      "id": "word072",
+      "word": "زهرة",
+      "pronunciation": "zahra",
+      "meaning": "flower",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 8,
+      "when_to_say": "Used to refer to a blooming part of a plant.",
+      "example": "الزهرة لونه رائع. (al-zahra lawnuhu raa'i.) - The flower has a wonderful color."
+    },
+    {
+      "id": "word073",
+      "word": "مطر",
+      "pronunciation": "matar",
+      "meaning": "rain",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 8,
+      "when_to_say": "Used to refer to water droplets falling from the sky.",
+      "example": "المطر ينزل بكثرة اليوم. (al-matar yanzil bikathra al-yawm.) - The rain is falling heavily today."
+    },
+    {
+      "id": "word074",
+      "word": "شمس",
+      "pronunciation": "shams",
+      "meaning": "sun",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 8,
+      "when_to_say": "Used to refer to the star that provides light and heat to the earth.",
+      "example": "الشمس ساطعة اليوم. (al-shams saati'a al-yawm.) - The sun is shining today."
+    },
+    {
+      "id": "word075",
+      "word": "قمر",
+      "pronunciation": "qamar",
+      "meaning": "moon",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 8,
+      "when_to_say": "Used to refer to the natural satellite of the Earth.",
+      "example": "القمر في السماء لامع. (al-qamar fi al-sama' laami'a.) - The moon is shining in the sky."
+    },
+    {
+      "id": "word076",
+      "word": "نجم",
+      "pronunciation": "najm",
+      "meaning": "star",
+      "part_of_speech": "noun",
+      "difficulty": "medium",
+      "lesson_no": 8,
+      "when_to_say": "Used to refer to a luminous point in the night sky.",
+      "example": "هناك العديد من النجوم في السماء. (hunaka al-adeed min al-nujoom fi al-sama'.) - There are many stars in the sky."
+    },
+    {
+      "id": "word077",
+      "word": "سماء",
+      "pronunciation": "samaa'",
+      "meaning": "sky",
+      "part_of_speech": "noun",
+      "difficulty": "medium",
+      "lesson_no": 8,
+      "when_to_say": "Used to refer to the expanse above the earth.",
+      "example": "السماء زرقاء اليوم. (al-sama' zarqaa' al-yawm.) - The sky is blue today."
+    },
+    {
+      "id": "word078",
+      "word": "أرض",
+      "pronunciation": "ard",
+      "meaning": "earth, ground",
+      "part_of_speech": "noun",
+      "difficulty": "medium",
+      "lesson_no": 8,
+      "when_to_say": "Used to refer to the solid surface of the earth.",
+      "example": "الأرض مغطاة بالثلوج. (al-ard maghtaat bil-thulooj.) - The ground is covered with snow."
+    },
+    {
+      "id": "word079",
+      "word": "جبل",
+      "pronunciation": "jabal",
+      "meaning": "mountain",
+      "part_of_speech": "noun",
+      "difficulty": "medium",
+      "lesson_no": 8,
+      "when_to_say": "Used to describe a large natural elevation of the earth's surface.",
+      "example": "الجبل مرتفع جدًا. (al-jabal murtifa' jiddan.) - The mountain is very high."
+    },
+    {
+      "id": "word080",
+      "word": "وادي",
+      "pronunciation": "wadi",
+      "meaning": "valley",
+      "part_of_speech": "noun",
+      "difficulty": "medium",
+      "lesson_no": 8,
+      "when_to_say": "Used to describe a low area of land between hills or mountains, often with a stream running through it.",
+      "example": "الوادي جميل للغاية. (al-wadi jameel lilghaya.) - The valley is very beautiful."
+    }
+  ]
+  

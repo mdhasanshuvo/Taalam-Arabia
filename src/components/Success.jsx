@@ -18,7 +18,7 @@ const Success = () => {
                     <div className="stat">
                         <div className="stat-title text-black font-medium">Lessons</div>
                         <div className="stat-value">
-                            <CountUp start={0} end={45} duration={2.5} separator="," />
+                            <CountUp start={0} end={10} duration={2.5} separator="," />
                         </div>
                     </div>
 
@@ -26,7 +26,7 @@ const Success = () => {
                     <div className="stat">
                         <div className="stat-title text-black font-medium">Vocabulary</div>
                         <div className="stat-value">
-                            <CountUp start={0} end={1200} duration={2.5} separator="," />
+                            <CountUp start={0} end={200} duration={2.5} separator="," />
                         </div>
                     </div>
 
@@ -34,7 +34,7 @@ const Success = () => {
                     <div className="stat">
                         <div className="stat-title text-black font-medium">Tutorials</div>
                         <div className="stat-value">
-                            <CountUp start={0} end={35} duration={2.5} separator="," />
+                            <CountUp start={0} end={12} duration={2.5} separator="," />
                         </div>
                     </div>
                 </div>

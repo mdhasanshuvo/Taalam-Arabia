@@ -1,0 +1,112 @@
+[
+    {
+        "id": "word021",
+        "word": "طعام",
+        "pronunciation": "ta'am",
+        "meaning": "food",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "lesson_no": 3,
+        "when_to_say": "Used to refer to any edible item.",
+        "example": "الطعام لذيذ هنا. (al-ta'am ladhidh huna.) - The food is delicious here."
+    },
+    {
+        "id": "word022",
+        "word": "ماء",
+        "pronunciation": "maa'",
+        "meaning": "water",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "lesson_no": 3,
+        "when_to_say": "Used to refer to drinking water.",
+        "example": "أريد كأس ماء. (urid ka's maa'.) - I want a glass of water."
+    },
+    {
+        "id": "word023",
+        "word": "شاي",
+        "pronunciation": "shai",
+        "meaning": "tea",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "lesson_no": 3,
+        "when_to_say": "Used to refer to the beverage tea.",
+        "example": "أشرب الشاي في الصباح. (ashrab al-shai fi al-sabah.) - I drink tea in the morning."
+    },
+    {
+        "id": "word024",
+        "word": "خبز",
+        "pronunciation": "khubz",
+        "meaning": "bread",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "lesson_no": 3,
+        "when_to_say": "Used to refer to bread or baked goods.",
+        "example": "أحتاج خبز للإفطار. (ahtaj khubz lil'iftar.) - I need bread for breakfast."
+    },
+    {
+        "id": "word025",
+        "word": "فواكه",
+        "pronunciation": "fawakih",
+        "meaning": "fruits",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "lesson_no": 3,
+        "when_to_say": "Used to describe fruits collectively.",
+        "example": "الفواكه صحية جدا. (al-fawakih sihiyya jiddan.) - Fruits are very healthy."
+    },
+    {
+        "id": "word026",
+        "word": "لحم",
+        "pronunciation": "lahm",
+        "meaning": "meat",
+        "part_of_speech": "noun",
+        "difficulty": "medium",
+        "lesson_no": 3,
+        "when_to_say": "Used to refer to animal flesh as food.",
+        "example": "أحب لحم الغنم. (uhibb lahm al-ghanam.) - I like lamb meat."
+    },
+    {
+        "id": "word027",
+        "word": "سمك",
+        "pronunciation": "samak",
+        "meaning": "fish",
+        "part_of_speech": "noun",
+        "difficulty": "medium",
+        "lesson_no": 3,
+        "when_to_say": "Used to refer to fish as food.",
+        "example": "سمك مشوي لذيذ. (samak mashwi ladhidh.) - Grilled fish is delicious."
+    },
+    {
+        "id": "word028",
+        "word": "ملح",
+        "pronunciation": "milh",
+        "meaning": "salt",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "lesson_no": 3,
+        "when_to_say": "Used to describe the seasoning salt.",
+        "example": "أضف قليل من الملح. (adaf qalil min al-milh.) - Add a little salt."
+    },
+    {
+        "id": "word029",
+        "word": "طبق",
+        "pronunciation": "tabaq",
+        "meaning": "dish",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "lesson_no": 3,
+        "when_to_say": "Used to refer to a plate or a meal.",
+        "example": "هذا طبق رئيسي. (hatha tabaq rayisi.) - This is a main dish."
+    },
+    {
+        "id": "word030",
+        "word": "مطعم",
+        "pronunciation": "mat'am",
+        "meaning": "restaurant",
+        "part_of_speech": "noun",
+        "difficulty": "easy",
+        "lesson_no": 3,
+        "when_to_say": "Used to refer to a dining establishment.",
+        "example": "المطعم مزدحم الآن. (al-mat'am muzdahem al-aan.) - The restaurant is crowded now."
+    }
+]

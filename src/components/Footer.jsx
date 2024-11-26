@@ -8,7 +8,7 @@ const Footer = () => {
                         <aside className='text-base'>
                             <h2 className='footer-title'>Contact us</h2>
                             <p  >
-                                <span className='font-bold'>Lingo Bingo</span>
+                                <span className='font-bold'>Taalam Arabia</span>
                                 <br />
                                 An Arabic Vocabulary Learning Application
                                 <br />
@@ -60,7 +60,7 @@ const Footer = () => {
                     </div>
                 </footer>
                 <aside>
-                    <p className='bg-neutral text-white text-center pb-5 px-1'>Copyright © {new Date().getFullYear()} - All right reserved by Lingo Bingo</p>
+                    <p className='bg-neutral text-white text-center pb-5 px-1'>Copyright © {new Date().getFullYear()} - All right reserved by Taalam Arabia</p>
                 </aside>
             </div>
         </div>

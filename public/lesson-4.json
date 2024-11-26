@@ -1,0 +1,113 @@
+[
+    {
+      "id": "word031",
+      "word": "سيارة",
+      "pronunciation": "sayyara",
+      "meaning": "car",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 4,
+      "when_to_say": "Used to refer to a vehicle.",
+      "example": "أحتاج سيارة جديدة. (ahtaj sayyara jadida.) - I need a new car."
+    },
+    {
+      "id": "word032",
+      "word": "طائرة",
+      "pronunciation": "ta'ira",
+      "meaning": "airplane",
+      "part_of_speech": "noun",
+      "difficulty": "medium",
+      "lesson_no": 4,
+      "when_to_say": "Used to refer to air travel.",
+      "example": "الطائرة تأخرت اليوم. (al-ta'ira ta'akharat al-yawm.) - The airplane is delayed today."
+    },
+    {
+      "id": "word033",
+      "word": "قطار",
+      "pronunciation": "qitar",
+      "meaning": "train",
+      "part_of_speech": "noun",
+      "difficulty": "medium",
+      "lesson_no": 4,
+      "when_to_say": "Used to describe railway transportation.",
+      "example": "القطار سريع جدا. (al-qitar sari' jiddan.) - The train is very fast."
+    },
+    {
+      "id": "word034",
+      "word": "دراجة",
+      "pronunciation": "darraja",
+      "meaning": "bicycle",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 4,
+      "when_to_say": "Used to refer to a two-wheeled vehicle.",
+      "example": "أحب ركوب الدراجة. (uhibb rukub al-darraja.) - I love riding a bicycle."
+    },
+    {
+      "id": "word035",
+      "word": "مطار",
+      "pronunciation": "matar",
+      "meaning": "airport",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 4,
+      "when_to_say": "Used to describe the location for airplanes.",
+      "example": "المطار مزدحم جدا. (al-matar muzdahem jiddan.) - The airport is very crowded."
+    },
+    {
+      "id": "word036",
+      "word": "محطة",
+      "pronunciation": "mahatta",
+      "meaning": "station",
+      "part_of_speech": "noun",
+      "difficulty": "medium",
+      "lesson_no": 4,
+      "when_to_say": "Used to refer to a train or bus stop.",
+      "example": "محطة القطار بعيدة. (mahatta al-qitar ba'ida.) - The train station is far."
+    },
+    {
+      "id": "word037",
+      "word": "حقيبة",
+      "pronunciation": "haqiba",
+      "meaning": "bag",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 4,
+      "when_to_say": "Used to describe a bag or suitcase.",
+      "example": "أين حقيبتي؟ (ayna haqibati?) - Where is my bag?"
+    },
+    {
+      "id": "word038",
+      "word": "جواز سفر",
+      "pronunciation": "jawaz safar",
+      "meaning": "passport",
+      "part_of_speech": "noun",
+      "difficulty": "medium",
+      "lesson_no": 4,
+      "when_to_say": "Used to describe a travel document.",
+      "example": "نسيت جواز السفر في المنزل. (naseet jawaz al-safar fi al-manzil.) - I forgot my passport at home."
+    },
+    {
+      "id": "word039",
+      "word": "شارع",
+      "pronunciation": "shari'",
+      "meaning": "street",
+      "part_of_speech": "noun",
+      "difficulty": "easy",
+      "lesson_no": 4,
+      "when_to_say": "Used to refer to a road or street.",
+      "example": "الشارع واسع جدا. (al-shari' wasi' jiddan.) - The street is very wide."
+    },
+    {
+      "id": "word040",
+      "word": "إشارة المرور",
+      "pronunciation": "isharat al-murur",
+      "meaning": "traffic light",
+      "part_of_speech": "noun",
+      "difficulty": "medium",
+      "lesson_no": 4,
+      "when_to_say": "Used to describe road traffic signals.",
+      "example": "انتظر عند إشارة المرور. (intathir ind isharat al-murur.) - Wait at the traffic light."
+    }
+  ]
+  
