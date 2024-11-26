@@ -1,5 +1,6 @@
 import About from "../components/About";
 import Banner from "../components/Banner";
+import FeaturedWordsOfTheDay from "../components/FeaturedWordsOfTheDay";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Success from "../components/Success";
@@ -21,8 +22,16 @@ const Home = () => {
             {/* About section */}
             <About></About>
 
+            
+            
+            {/* FeaturedWordsOfTheDay section */}
+            <FeaturedWordsOfTheDay></FeaturedWordsOfTheDay>
+
+            
+
             {/* Success section */}
             <Success></Success>
+
 
 
             {/* testimonial section */}
