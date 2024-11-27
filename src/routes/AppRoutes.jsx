@@ -7,6 +7,9 @@ import Login from "../pages/Login";
 import AuthLayout from "../LayoutComponent/AuthLayout";
 import Register from "../pages/Register";
 import ErrorPage from "../pages/ErrorPage ";
+import PrivateRoute from "./PrivateRoute";
+import Lessons from "../pages/Lessons";
+import MyProfile from "../pages/MyProfile";
 
 const AppRoutes = createBrowserRouter([
     {
@@ -19,11 +22,24 @@ const AppRoutes = createBrowserRouter([
     },
     {
         path: "/tutorials",
-        element: <TutorialsPage></TutorialsPage>
+        element: <PrivateRoute>
+            <TutorialsPage></TutorialsPage>
+        </PrivateRoute>
     },
     {
         path: "/about",
         element: <AboutUs></AboutUs>
+    },
+    {
+        path: "/profile",
+        element: <MyProfile></MyProfile>
+    },
+    {
+        path: "/lesson/:id",
+        element: <PrivateRoute>
+            <Lessons></Lessons>
+        </PrivateRoute>,
+        loader: ({ params }) => fetch(`/lesson-${params.id}.json`),
     },
     {
         path: '/auth',

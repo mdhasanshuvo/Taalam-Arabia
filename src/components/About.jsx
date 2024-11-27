@@ -8,7 +8,7 @@ const About = () => {
                     Through easy-to-follow lessons and interactive features, users can discover and master new words every day,
                     improving their language skills at their own pace.
                 </p>
-                <button className="btn btn-neutral btn-wide">Start Your Journey</button>
+                <button className="btn btn-primary btn-wide text-white">Start Your Journey</button>
             </div>
         </section>
     );

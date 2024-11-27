@@ -8,6 +8,7 @@ import Success from "../components/Success";
 import TestimonialSection from "../components/Testimonial";
 import { AuthContext } from "../provider/AuthProvider";
 import Typewriter from 'react-typewriter-effect';
+import "../index.css"
 
 const Home = () => {
 
@@ -15,18 +16,13 @@ const Home = () => {
 
     return (
         <div>
-
-            {/* <h2 className="text-xl text-center ">
-                    Hello {user.displayName}!!! Welcome to the Taalam Arabia...
-                </h2> */}
-            {/* Header section */}
             <header>
                 <Navbar></Navbar>
 
                 {/* welcome */}
                 {
                     user && <Typewriter
-                        textStyle={{ fontFamily: 'Arial', color: '#4c1d95', fontSize: '30px' , textAlign: 'center',  }}
+                        textStyle={{ fontFamily: 'Arial', color: '#4c1d95', fontSize: '30px' , textAlign: 'center', padding: '20px' }}
                         startDelay={100}
                         cursorColor="#3F3D56"
                         multiText={[

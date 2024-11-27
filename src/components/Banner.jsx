@@ -1,9 +1,11 @@
+import banner from "../assets/Langu.png"
+
 const Banner = () => {
     return (
-        <div className="carousel w-full flex container mx-auto">
+        <div className="carousel w-full flex container mx-auto mt-10 mb-16">
             <div id="slide1" className="carousel-item relative w-full">
                 <img
-                    src="https://img.freepik.com/free-vector/arabic-lesson-with-tutor-teacher-vector_570502-53.jpg"
+                    src={banner}
                     className="object-contain mx-auto" />
                 <div className="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
                     <a href="#slide3" className="btn btn-circle">❮</a>
