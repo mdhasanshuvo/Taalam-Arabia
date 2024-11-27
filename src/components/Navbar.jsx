@@ -48,7 +48,12 @@ const Navbar = () => {
                 <div className="navbar-end">
                     {
                         user ?
-                            <Link onClick={logout} to='/' className='btn btn-neutral rounded-none px-10 text-white text-base'>Log out</Link> :
+                            <div className="flex items-center gap-3 justify-center">
+                                <div>
+                                    <img className='w-11 rounded-full ' src={user?.photoURL} alt="" />
+                                </div>
+                                <Link onClick={logout} to='/' className='btn btn-neutral rounded-none px-10 text-white text-base'>Log out</Link>
+                            </div> :
                             <Link to='/auth/login' className='btn btn-neutral rounded-none px-10 text-white text-base'>Login</Link>
                     }
                 </div>

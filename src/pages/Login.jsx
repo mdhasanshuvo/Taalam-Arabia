@@ -1,10 +1,11 @@
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { useContext, useState } from "react";
 import { AuthContext } from "../provider/AuthProvider";
+import { FaGoogle } from "react-icons/fa";
 
 const Login = () => {
 
-    const { signIn, setUser } = useContext(AuthContext);
+    const { signIn, setUser, googleAuth } = useContext(AuthContext);
 
     const [errorMessage, setErrorMessage] = useState({});
 
@@ -13,6 +14,20 @@ const Login = () => {
     const navigate = useNavigate();
 
     // console.log(location);
+
+    const onClickForGoogle = () => {
+        googleAuth()
+            .then(result => {
+                const userFromGoogle = result.user;
+                console.log(userFromGoogle);
+                setUser(userFromGoogle);
+                errorMessage.name = '';
+                navigate(location?.state ? location.state : '/');
+            })
+            .catch(error => {
+                console.log(error.message);
+            })
+    }
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -66,6 +81,15 @@ const Login = () => {
                     <p className="text-center mt-6">
                         Dont’t Have An Account ? <Link className="text-red-500" to='/auth/register'>Register</Link>
                     </p>
+
+                    <div className="text-center space-y-3">
+                        <h2 className="text-center mt-10">Or, Log in with</h2>
+                        <button className="btn" onClick={onClickForGoogle}>
+                            <FaGoogle></FaGoogle>
+                            <span className="text-lg font-light">Google</span>
+                        </button>
+                    </div>
+
                 </form>
             </div>
         </div>
