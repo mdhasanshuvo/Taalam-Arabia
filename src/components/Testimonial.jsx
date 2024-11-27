@@ -7,25 +7,25 @@ const TestimonialSection = () => {
       name: 'Ali Ibrahim',
       country: 'Egypt',
       feedback: 'Taalam Arabia has made learning Arabic easier than I ever imagined. The platform is so intuitive!',
-      image: 'https://randomuser.me/api/portraits/men/1.jpg',
+      image: 'https://plus.unsplash.com/premium_photo-1689530775582-83b8abdb5020?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cmFuZG9tJTIwcGVyc29ufGVufDB8fDB8fHww',
     },
     {
       name: 'Sara Al-Mansoori',
       country: 'UAE',
       feedback: 'I love the daily vocabulary feature! It helps me learn Arabic in a manageable way.',
-      image: 'https://randomuser.me/api/portraits/women/2.jpg',
+      image: 'https://media.istockphoto.com/id/1466995518/photo/business-woman-and-worker-portrait-at-office-desk-as-administration-executive-company-manager.jpg?s=612x612&w=0&k=20&c=NvKeG6Fh0_VVfH_N0Ka-5j8284XJhL2VTJfe6IwDkWQ=',
     },
     {
       name: 'Mohammed Khan',
       country: 'Pakistan',
       feedback: 'The lessons are really interactive, and the design is so clean and user-friendly.',
-      image: 'https://randomuser.me/api/portraits/men/3.jpg',
+      image: 'https://i.redd.it/6u8idpt040m51.jpg',
     },
     {
       name: 'Aisha Noor',
       country: 'Saudi Arabia',
       feedback: 'I can easily track my progress and feel motivated to continue learning. Great platform!',
-      image: 'https://randomuser.me/api/portraits/women/4.jpg',
+      image: 'https://t4.ftcdn.net/jpg/06/25/09/07/360_F_625090798_8gkjy4oGeEYM7gqHNDXoObtwMKx3Ry42.jpg',
     },
   ];
 
@@ -69,7 +69,7 @@ const TestimonialSection = () => {
           ))}
         </Swiper>
         <div>
-            <p className='text-right p-2 font-semibold'>Slide for more</p>
+          <p className='text-right p-2 font-semibold'>Slide for more</p>
         </div>
       </div>
     </section>

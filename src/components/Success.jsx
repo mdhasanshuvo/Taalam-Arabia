@@ -34,7 +34,7 @@ const Success = () => {
                     <div className="stat">
                         <div className="stat-title text-black font-medium">Tutorials</div>
                         <div className="stat-value">
-                            <CountUp start={0} end={12} duration={2.5} separator="," />
+                            <CountUp start={0} end={6} duration={2.5} separator="," />
                         </div>
                     </div>
                 </div>

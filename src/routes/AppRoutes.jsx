@@ -1,6 +1,7 @@
 import { createBrowserRouter } from "react-router-dom";
 import Home from "../pages/Home";
 import StartLearning from "../pages/StartLearning";
+import TutorialsPage from "../pages/TutorialsPage ";
 
 const AppRoutes = createBrowserRouter([
     {
@@ -10,6 +11,10 @@ const AppRoutes = createBrowserRouter([
     {
         path: "/learning",
         element: <StartLearning></StartLearning>
+    },
+    {
+        path: "/tutorials",
+        element: <TutorialsPage></TutorialsPage>
     }
 ]);
 

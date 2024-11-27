@@ -5,8 +5,8 @@ const Navbar = () => {
     const list = <>
         <li><NavLink to='/'>Home</NavLink></li>
         <li><NavLink to='/learning'>Start-Learning</NavLink></li>
-        <li><NavLink to='/tutorials'>tutorials</NavLink></li>
-        <li><NavLink to='/about'>about-us</NavLink></li>
+        <li><NavLink to='/tutorials'>Tutorials</NavLink></li>
+        <li><NavLink to='/about'>About-us</NavLink></li>
     </>
     return (
         <div className="container mx-auto">
