@@ -9,10 +9,15 @@ import TestimonialSection from "../components/Testimonial";
 import { AuthContext } from "../provider/AuthProvider";
 import Typewriter from 'react-typewriter-effect';
 import "../index.css"
+import Loading from "../components/Loading";
 
 const Home = () => {
 
-    const { user } = useContext(AuthContext);
+    const { user, loading } = useContext(AuthContext);
+
+    if (loading) {
+        return <Loading></Loading>;
+    }
 
     return (
         <div>
@@ -22,11 +27,11 @@ const Home = () => {
                 {/* welcome */}
                 {
                     user && <Typewriter
-                        textStyle={{ fontFamily: 'Arial', color: '#4c1d95', fontSize: '30px' , textAlign: 'center', padding: '20px' }}
+                        textStyle={{ fontFamily: 'Arial', color: '#4c1d95', fontSize: '30px', textAlign: 'center', padding: '20px' }}
                         startDelay={100}
                         cursorColor="#3F3D56"
                         multiText={[
-                            `Hello, ${user.displayName}`,
+                            `Hello, ${user.displayName}!!!`,
                             'Welcome to the Taalam Arabia.',
                             'Start learning Arabic today!',
                         ]}

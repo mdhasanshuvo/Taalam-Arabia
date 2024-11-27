@@ -10,6 +10,7 @@ import ErrorPage from "../pages/ErrorPage ";
 import PrivateRoute from "./PrivateRoute";
 import Lessons from "../pages/Lessons";
 import MyProfile from "../pages/MyProfile";
+import UpdateProfile from "../pages/UpdateProfile";
 
 const AppRoutes = createBrowserRouter([
     {
@@ -33,6 +34,10 @@ const AppRoutes = createBrowserRouter([
     {
         path: "/profile",
         element: <MyProfile></MyProfile>
+    },
+    {
+        path: "/update-profile",
+        element: <UpdateProfile></UpdateProfile>
     },
     {
         path: "/lesson/:id",
