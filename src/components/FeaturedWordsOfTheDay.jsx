@@ -1,4 +1,5 @@
 import { useEffect, useState } from 'react';
+import 'animate.css';
 
 const FeaturedWordsSection = () => {
   const [featuredWords, setFeaturedWords] = useState([]);
@@ -29,9 +30,9 @@ const FeaturedWordsSection = () => {
   }, []);
 
   return (
-    <section className="bg-gradient-to-b from-indigo-50 to-white py-16">
+    <section className="bg-gradient-to-b from-indigo-50 to-white py-16 lg:py-24">
       <div className="container mx-auto px-6 text-center">
-        <h2 className="text-3xl font-bold text-gray-800 mb-8">Featured Words</h2>
+        <h2 className="text-3xl font-bold text-gray-800 mb-8 animate__animated animate__fadeIn">Featured Words</h2>
 
         {loading && <p className="text-lg text-gray-500">Loading...</p>} {/* Show loading */}
         {error && <p className="text-lg text-red-500">{error}</p>} {/* Show error */}
@@ -40,7 +41,7 @@ const FeaturedWordsSection = () => {
           {featuredWords.map((word) => (
             <div key={word.id} className="bg-white p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow">
               <div className="flex justify-center mb-4">
-                <span className="text-4xl text-indigo-600">{word.word}</span>
+                <span className="text-4xl text-indigo-600 animate__animated animate__zoomIn">{word.word}</span>
               </div>
               <div className="text-gray-600 mb-4 space-y-1">
                 <p className="text-lg">Pronunciation: <strong>{word.pronunciation}</strong></p>
