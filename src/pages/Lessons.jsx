@@ -81,8 +81,8 @@ const Lessons = () => {
                 </div>
 
                 {/* Modal for Word Details */}
-                <Modal className='box-content rounded-xl' open={modalOpen} onClickBackdrop={() => setModalOpen(false)}>
-                    <div className="space-y-2">
+                <Modal className='box-content rounded-lg' open={modalOpen} onClickBackdrop={() => setModalOpen(false)}>
+                    <div className="space-y-2 rounded-lg p-1">
                         {selectedWord && (
                             <>
                                 <h2 className="text-2xl font-semibold mb-4">{selectedWord.word}</h2>
