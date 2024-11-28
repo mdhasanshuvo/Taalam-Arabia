@@ -7,21 +7,20 @@ import { FaVolumeUp } from 'react-icons/fa';
 import { Helmet } from 'react-helmet';
 
 const Lessons = () => {
-
     const { id } = useParams();
     const navigate = useNavigate();
     const vocabularies = useLoaderData();
     const [selectedWord, setSelectedWord] = useState(null);
     const [modalOpen, setModalOpen] = useState(false);
 
-    // Function to pronounce the word
+    // Function to pronounce the word using SpeechSynthesis API
     const pronounceWord = (word) => {
         const utterance = new SpeechSynthesisUtterance(word);
-        console.log(word);
         utterance.lang = 'ar-SA';
         window.speechSynthesis.speak(utterance);
     };
 
+    // Function to determine the card color based on word difficulty
     const getCardColor = (difficulty) => {
         switch (difficulty) {
             case 'easy':
@@ -37,7 +36,6 @@ const Lessons = () => {
 
     return (
         <div>
-
             <Helmet>
                 <title>Lesson-{id} | Taalam Arabia</title>
             </Helmet>
@@ -45,11 +43,9 @@ const Lessons = () => {
             <Navbar />
 
             <main className="container mx-auto px-6 py-12">
-                <h1 className="text-4xl font-bold text-center mb-8">
-                    Lesson {id}
-                </h1>
+                <h1 className="text-4xl font-bold text-center mb-8">Lesson {id}</h1>
 
-                {/* Vocabulary Cards */}
+                {/* Vocabulary Cards Section */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                     {vocabularies.map((word) => (
                         <div
@@ -61,16 +57,16 @@ const Lessons = () => {
                             <p className="text-gray-600"><strong>Pronunciation:</strong> {word.pronunciation}</p>
                             <p className="text-gray-600"><strong>Part of Speech:</strong> {word.part_of_speech}</p>
 
-                            {/* Add Sound Icon for Pronunciation */}
+                            {/* Pronunciation Button */}
                             <button
                                 className="mt-4 flex items-center gap-2 text-gray-600 hover:text-gray-800"
                                 onClick={() => pronounceWord(word.pronunciation)}
-                            // Pronounce the word on icon click
                             >
                                 <FaVolumeUp className="text-xl" />
                                 Pronounce
                             </button>
 
+                            {/* "When to Say" Button */}
                             <button
                                 className="mt-4 btn btn-primary"
                                 onClick={() => {
@@ -85,24 +81,26 @@ const Lessons = () => {
                 </div>
 
                 {/* Modal for Word Details */}
-                {selectedWord && (
-                    <Modal open={modalOpen} onClickBackdrop={() => setModalOpen(false)}>
-                        <Modal.Header className="font-bold text-lg modal-box">{selectedWord.word}</Modal.Header>
-                        <Modal.Body className='space-y-2'>
-                            <p><strong>Meaning:</strong> {selectedWord.meaning}</p>
-                            <p><strong>When to Say:</strong> {selectedWord.when_to_say}</p>
-                            <p><strong>Example:</strong> {selectedWord.example}</p>
-                        </Modal.Body>
-                        <Modal.Actions className='pt-3'>
-                            <button
-                                className="btn"
-                                onClick={() => setModalOpen(false)}
-                            >
-                                Close
-                            </button>
-                        </Modal.Actions>
-                    </Modal>
-                )}
+                <Modal className='p-0 w-100' open={modalOpen} onClickBackdrop={() => setModalOpen(false)}>
+                    <div className="modal-box space-y-2 w-full">
+                        {selectedWord && (
+                            <>
+                                <h2 className="text-2xl font-semibold mb-4">{selectedWord.word}</h2>
+                                <p><strong>Meaning:</strong> {selectedWord.meaning}</p>
+                                <p><strong>When to Say:</strong> {selectedWord.when_to_say}</p>
+                                <p><strong>Example:</strong> {selectedWord.example}</p>
+                                <div className="modal-action">
+                                    <button
+                                        className="btn"
+                                        onClick={() => setModalOpen(false)}
+                                    >
+                                        Close
+                                    </button>
+                                </div>
+                            </>
+                        )}
+                    </div>
+                </Modal>
 
                 {/* Back to Lessons Button */}
                 <div className="text-center mt-8">
