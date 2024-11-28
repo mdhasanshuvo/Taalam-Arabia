@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const About = () => {
     return (
         <section className="py-20  bg-gradient-to-b from-base-200 to-base-100 text-base-content">
@@ -8,7 +10,7 @@ const About = () => {
                     Through easy-to-follow lessons and interactive features, users can discover and master new words every day,
                     improving their language skills at their own pace.
                 </p>
-                <button className="btn btn-primary btn-wide text-white">Start Your Journey</button>
+                <Link to="/learning" className="btn btn-primary btn-wide text-white">Start Your Journey</Link>
             </div>
         </section>
     );

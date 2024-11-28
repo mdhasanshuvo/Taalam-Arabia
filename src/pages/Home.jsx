@@ -23,9 +23,6 @@ const Home = () => {
     return (
 
         <div>
-            <Helmet>
-                <title>Home | Taalam Arabia</title>
-            </Helmet>
             <header>
                 <Navbar></Navbar>
 
