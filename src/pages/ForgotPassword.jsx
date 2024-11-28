@@ -1,7 +1,6 @@
 import { useContext, useState } from "react";
 import { AuthContext } from "../provider/AuthProvider";
 import { Link, useNavigate } from "react-router-dom";
-import Loading from "../components/Loading";
 
 const ForgotPassword = () => {
     const { email, setEmail, resetPassword, loading } = useContext(AuthContext);
@@ -12,26 +11,21 @@ const ForgotPassword = () => {
     const handleResetPassword = (e) => {
         e.preventDefault();
 
-        // Check if email field is empty
         if (!email) {
             setErrorMessage("Please enter your email address.");
             return;
         }
 
-        // if (loading) {
-        //     return <Loading></Loading>;
-        // }
-
         resetPassword(email)
             .then(() => {
                 setSuccessMessage("Password reset email sent successfully!");
-                setErrorMessage(""); // Clear any existing error messages
-                navigate("/auth/login"); // Redirect to login page after success
+                setErrorMessage(""); 
+                navigate("/auth/login"); 
                 window.open("https://mail.google.com/", "_blank");
             })
             .catch((error) => {
                 setErrorMessage("Error: " + error.message);
-                setSuccessMessage(""); // Clear any existing success messages
+                setSuccessMessage(""); 
             });
     };
 
@@ -48,7 +42,7 @@ const ForgotPassword = () => {
                             type="email"
                             placeholder="Enter your email"
                             value={email}
-                            onChange={(e) => setEmail(e.target.value)} // Set email in context
+                            onChange={(e) => setEmail(e.target.value)}
                             className="input input-bordered"
                             required
                         />

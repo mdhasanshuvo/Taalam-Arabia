@@ -3,6 +3,8 @@ import { useContext, useState } from "react";
 import { AuthContext } from "../provider/AuthProvider";
 import { FaGoogle } from "react-icons/fa";
 import { Helmet } from "react-helmet";
+import { ToastContainer, toast } from 'react-toastify'; 
+import 'react-toastify/dist/ReactToastify.css'; 
 
 const Login = () => {
 
@@ -11,25 +13,26 @@ const Login = () => {
     const [errorMessage, setErrorMessage] = useState({});
 
     const location = useLocation();
-
     const navigate = useNavigate();
 
-    // console.log(location);
-
+    // Google login function
     const onClickForGoogle = () => {
         googleAuth()
             .then(result => {
                 const userFromGoogle = result.user;
                 console.log(userFromGoogle);
                 setUser(userFromGoogle);
-                errorMessage.name = '';
+                setErrorMessage({}); 
+                toast.success('Successfully logged in with Google!');
                 navigate(location?.state ? location.state : '/');
             })
             .catch(error => {
                 console.log(error.message);
-            })
-    }
+                toast.error('Google login failed!');
+            });
+    };
 
+    
     const handleSubmit = (e) => {
         e.preventDefault();
         const email = e.target.email.value;
@@ -40,13 +43,15 @@ const Login = () => {
             .then(result => {
                 const user = result.user;
                 setUser(user);
-                setEmail('')
+                setEmail('');
+                toast.success('Successfully logged in!'); e
                 navigate(location?.state ? location.state : '/');
             })
             .catch(error => {
-                setErrorMessage({ ...errorMessage, login: error.code })
-            })
-    }
+                setErrorMessage({ ...errorMessage, login: error.code });
+                toast.error('Login failed! Please check your credentials.'); 
+            });
+    };
 
     return (
         <div className="min-h-screen flex justify-center items-center -mt-20 bg-[#F3F3F3]">
@@ -95,19 +100,20 @@ const Login = () => {
                         <button className="btn btn-neutral rounded-none">Login</button>
                     </div>
                     <p className="text-center mt-6">
-                        Dont’t Have An Account ? <Link className="text-red-500" to='/auth/register'>Register</Link>
+                        Don’t Have An Account? <Link className="text-red-500" to='/auth/register'>Register</Link>
                     </p>
 
                     <div className="text-center space-y-3">
                         <h2 className="text-center mt-10">Or, Log in with</h2>
                         <button className="btn" onClick={onClickForGoogle}>
-                            <FaGoogle></FaGoogle>
+                            <FaGoogle />
                             <span className="text-lg font-light">Google</span>
                         </button>
                     </div>
-
                 </form>
             </div>
+
+            <ToastContainer />
         </div>
     );
 };

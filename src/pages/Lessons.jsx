@@ -1,9 +1,9 @@
 import { useParams, useNavigate, useLoaderData } from 'react-router-dom';
-import { Modal } from 'react-daisyui'; // Assuming you're using DaisyUI for modal
+import { Modal } from 'react-daisyui'; 
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { useState } from 'react';
-import { FaVolumeUp } from 'react-icons/fa'; // Importing sound icon
+import { FaVolumeUp } from 'react-icons/fa'; 
 import { Helmet } from 'react-helmet';
 
 const Lessons = () => {

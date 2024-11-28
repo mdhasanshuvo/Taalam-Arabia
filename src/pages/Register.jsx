@@ -3,16 +3,27 @@ import { Link, useNavigate } from "react-router-dom";
 import { AuthContext } from "../provider/AuthProvider";
 import { FaGoogle } from "react-icons/fa";
 import { Helmet } from "react-helmet";
+import { toast, ToastContainer } from "react-toastify";  
+import 'react-toastify/dist/ReactToastify.css'; 
 
 const Register = () => {
 
     const { signUp, setUser, updateUser, googleAuth } = useContext(AuthContext);
 
     const [errorMessage, setErrorMessage] = useState({});
-
     const navigate = useNavigate();
 
-    console.log(errorMessage);
+    const showErrorToast = (message) => {
+        toast.error(message, {
+            position: "top-center",
+            autoClose: 5000,  
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+        });
+    };
 
     const onClickForGoogle = () => {
         googleAuth()
@@ -20,14 +31,13 @@ const Register = () => {
                 const userFromGoogle = result.user;
                 console.log(userFromGoogle);
                 setUser(userFromGoogle);
-                errorMessage.name = '';
                 navigate(location?.state ? location.state : '/');
             })
             .catch(error => {
                 console.log(error.message);
-            })
-    }
-
+                showErrorToast(error.message);  
+            });
+    };
 
     const handleSubmit = (e) => {
         e.preventDefault();
@@ -35,8 +45,8 @@ const Register = () => {
         const photo = e.target.photo.value;
         const email = e.target.email.value;
         const password = e.target.password.value;
-        console.log(name, photo, email, password);
 
+        console.log(name, photo, email, password);
 
         // Password validation conditions
         const hasUppercase = /[A-Z]/.test(password);
@@ -48,35 +58,33 @@ const Register = () => {
                 ...errorMessage,
                 password: `Password must contain at least 6 characters, including uppercase and lowercase letters.`
             });
+            showErrorToast("Password validation failed. Please check your password!"); // Show toast error for password validation
             return;
         }
-
 
         signUp(email, password)
             .then(result => {
                 const user = result.user;
                 console.log(user);
                 setUser(user);
-                errorMessage.name = '';
 
                 updateUser({
                     displayName: name,
                     photoURL: photo,
                 })
                     .then(() => {
-                        navigate("/")
+                        navigate("/");
                     })
                     .catch(error => {
                         console.log(error);
-                    })
-
-
+                        showErrorToast(error.message);  
+                    });
             })
             .catch(error => {
                 console.log(error.message);
-            })
-
-    }
+                showErrorToast(error.message);
+            });
+    };
 
     return (
         <div className="min-h-screen flex justify-center items-center -mt-20 bg-[#F3F3F3]">
@@ -102,12 +110,15 @@ const Register = () => {
                         <input name="photo" type="name" placeholder="Enter your Photo URL" className="input input-bordered" required />
                     </div>
 
+                    {/* E-mail */}
                     <div className="form-control">
                         <label className="label">
                             <span className="label-text">Email</span>
                         </label>
                         <input name="email" type="email" placeholder="email" className="input input-bordered" required />
                     </div>
+
+                    {/* Password */}
                     <div className="form-control">
                         <label className="label">
                             <span className="label-text">Password</span>
@@ -116,13 +127,11 @@ const Register = () => {
                         <label className="label">
                             <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
                         </label>
-                        {
-                            errorMessage.password && (
-                                <label className="label text-sm text-red-500">
-                                    {errorMessage.password}
-                                </label>
-                            )
-                        }
+                        {errorMessage.password && (
+                            <label className="label text-sm text-red-500">
+                                {errorMessage.password}
+                            </label>
+                        )}
                     </div>
 
                     <div className="form-control mt-6">
@@ -139,9 +148,10 @@ const Register = () => {
                             <span className="text-lg font-light">Google</span>
                         </button>
                     </div>
-
                 </form>
             </div>
+            
+            <ToastContainer />
         </div>
     );
 };
