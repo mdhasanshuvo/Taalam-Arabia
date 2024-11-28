@@ -1,10 +1,16 @@
 import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import { Helmet } from 'react-helmet';
 
 const TutorialsPage = () => {
     return (
         <div>
+
+            <Helmet>
+                <title>Tutorials | Taalam Arabia</title>
+            </Helmet>
+
             {/* Header section */}
             <header>
                 <Navbar></Navbar>

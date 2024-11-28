@@ -1,11 +1,17 @@
 import { Link } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import { Helmet } from 'react-helmet';
 
 const StartLearning = () => {
 
     return (
         <div>
+
+            <Helmet>
+                <title>Learning | Taalam Arabia</title>
+            </Helmet>
+
             {/* Header section */}
             <header>
                 <Navbar></Navbar>

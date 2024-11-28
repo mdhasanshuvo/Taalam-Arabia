@@ -1,10 +1,16 @@
 import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
+import { Helmet } from 'react-helmet';
 
 const AboutUs = () => {
     return (
         <div>
+
+            <Helmet>
+                <title>About | Taalam Arabia</title>
+            </Helmet>
+
             {/* Header section */}
             <header>
                 <Navbar></Navbar>

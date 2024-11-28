@@ -4,6 +4,7 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { AuthContext } from '../provider/AuthProvider';
 import Loading from '../components/Loading';
+import { Helmet } from 'react-helmet';
 
 const MyProfile = () => {
     const navigate = useNavigate();
@@ -15,6 +16,11 @@ const MyProfile = () => {
 
     return (
         <div>
+
+            <Helmet>
+                <title>Profile | Taalam Arabia</title>
+            </Helmet>
+
             <Navbar />
 
             <main className="container mx-auto px-6 py-12">

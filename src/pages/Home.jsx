@@ -10,6 +10,7 @@ import { AuthContext } from "../provider/AuthProvider";
 import Typewriter from 'react-typewriter-effect';
 import "../index.css"
 import Loading from "../components/Loading";
+import { Helmet } from "react-helmet";
 
 const Home = () => {
 
@@ -20,7 +21,11 @@ const Home = () => {
     }
 
     return (
+
         <div>
+            <Helmet>
+                <title>Home | Taalam Arabia</title>
+            </Helmet>
             <header>
                 <Navbar></Navbar>
 

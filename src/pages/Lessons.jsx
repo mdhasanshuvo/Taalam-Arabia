@@ -4,12 +4,13 @@ import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { useState } from 'react';
 import { FaVolumeUp } from 'react-icons/fa'; // Importing sound icon
+import { Helmet } from 'react-helmet';
 
 const Lessons = () => {
 
     const { id } = useParams();
     const navigate = useNavigate();
-    const vocabularies = useLoaderData(); 
+    const vocabularies = useLoaderData();
     const [selectedWord, setSelectedWord] = useState(null);
     const [modalOpen, setModalOpen] = useState(false);
 
@@ -36,6 +37,11 @@ const Lessons = () => {
 
     return (
         <div>
+
+            <Helmet>
+                <title>Lesson-{id} | Taalam Arabia</title>
+            </Helmet>
+
             <Navbar />
 
             <main className="container mx-auto px-6 py-12">
@@ -59,7 +65,7 @@ const Lessons = () => {
                             <button
                                 className="mt-4 flex items-center gap-2 text-gray-600 hover:text-gray-800"
                                 onClick={() => pronounceWord(word.pronunciation)}
-                                 // Pronounce the word on icon click
+                            // Pronounce the word on icon click
                             >
                                 <FaVolumeUp className="text-xl" />
                                 Pronounce
