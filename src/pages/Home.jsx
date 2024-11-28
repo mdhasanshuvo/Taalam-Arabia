@@ -23,6 +23,9 @@ const Home = () => {
     return (
 
         <div>
+            <Helmet>
+                <title>Taalam Arabia</title>
+            </Helmet>
             <header>
                 <Navbar></Navbar>
 
