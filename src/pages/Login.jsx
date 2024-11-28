@@ -5,7 +5,7 @@ import { FaGoogle } from "react-icons/fa";
 
 const Login = () => {
 
-    const { signIn, setUser, googleAuth } = useContext(AuthContext);
+    const { signIn, setUser, googleAuth, email, setEmail } = useContext(AuthContext);
 
     const [errorMessage, setErrorMessage] = useState({});
 
@@ -38,7 +38,8 @@ const Login = () => {
         signIn(email, password)
             .then(result => {
                 const user = result.user;
-                setUser(user)
+                setUser(user);
+                setEmail('')
                 navigate(location?.state ? location.state : '/');
             })
             .catch(error => {
@@ -55,7 +56,15 @@ const Login = () => {
                         <label className="label">
                             <span className="label-text">Email</span>
                         </label>
-                        <input name="email" type="email" placeholder="email" className="input input-bordered" required />
+                        <input
+                            name="email"
+                            type="email"
+                            placeholder="email"
+                            value={email}
+                            onChange={(e) => setEmail(e.target.value)}
+                            className="input input-bordered"
+                            required
+                        />
                     </div>
                     <div className="form-control">
                         <label className="label">
@@ -71,9 +80,12 @@ const Login = () => {
                             )
                         }
 
-                        <label className="label">
-                            <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
-                        </label>
+                        <Link
+                            to={`/auth/forgot-password`}
+                            className="label-text-alt link link-hover"
+                        >
+                            Forgot password?
+                        </Link>
                     </div>
                     <div className="form-control mt-6">
                         <button className="btn btn-neutral rounded-none">Login</button>

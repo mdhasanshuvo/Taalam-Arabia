@@ -1,6 +1,6 @@
 /* eslint-disable react-refresh/only-export-components */
 
-import { createUserWithEmailAndPassword, getAuth, GoogleAuthProvider, onAuthStateChanged, signInWithEmailAndPassword, signInWithPopup, signOut, updateProfile } from "firebase/auth";
+import { createUserWithEmailAndPassword, getAuth, GoogleAuthProvider, onAuthStateChanged, sendPasswordResetEmail, signInWithEmailAndPassword, signInWithPopup, signOut, updateProfile } from "firebase/auth";
 import { createContext, useEffect, useState } from "react";
 import app from "../firebase/firebase.config";
 
@@ -17,31 +17,39 @@ const AuthProvider = ({ children }) => {
 
     const [loading, setLoading] = useState(true);
 
+    const [email, setEmail] = useState('')
+
     console.log(user);
 
 
-    const signUp = (email, password) =>{
+    const signUp = (email, password) => {
         setLoading(true);
         return createUserWithEmailAndPassword(auth, email, password);
     }
 
-    const logout = () =>{
+    const logout = () => {
         setLoading(true);
         signOut(auth);
     }
 
-    const signIn = (email, password) =>{
+    const signIn = (email, password) => {
         setLoading(true);
         return signInWithEmailAndPassword(auth, email, password)
     }
 
-    const googleAuth = () =>{
+    const googleAuth = () => {
         return signInWithPopup(auth, provider);
     }
 
-    const updateUser = (updatedData) =>{
+    const updateUser = (updatedData) => {
         return updateProfile(auth.currentUser, updatedData);
     }
+
+    const resetPassword = (email) => {
+        setLoading(true);
+        return sendPasswordResetEmail(auth, email)
+            .finally(() => setLoading(false));
+    };
 
 
     const authValues = {
@@ -53,14 +61,17 @@ const AuthProvider = ({ children }) => {
         googleAuth,
         loading,
         updateUser,
+        resetPassword,
+        email,
+        setEmail,
     }
 
-    useEffect(()=>{
-        onAuthStateChanged(auth, (currentUser)=>{
+    useEffect(() => {
+        onAuthStateChanged(auth, (currentUser) => {
             setUser(currentUser);
             setLoading(false);
         })
-    },[]);
+    }, []);
 
     return (
         <AuthContext.Provider value={authValues}>

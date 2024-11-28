@@ -11,6 +11,7 @@ import PrivateRoute from "./PrivateRoute";
 import Lessons from "../pages/Lessons";
 import MyProfile from "../pages/MyProfile";
 import UpdateProfile from "../pages/UpdateProfile";
+import ForgotPassword from "../pages/ForgotPassword";
 
 const AppRoutes = createBrowserRouter([
     {
@@ -57,6 +58,10 @@ const AppRoutes = createBrowserRouter([
             {
                 path: '/auth/register',
                 element: <Register></Register>
+            },
+            {
+                path: "/auth/forgot-password",
+                element: <ForgotPassword></ForgotPassword>
             },
         ]
     },
