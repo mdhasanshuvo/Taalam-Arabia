@@ -1,8 +1,9 @@
-import { useParams, useNavigate, Navigate, useLoaderData } from 'react-router-dom';
+import { useParams, useNavigate, useLoaderData } from 'react-router-dom';
 import { Modal } from 'react-daisyui'; // Assuming you're using DaisyUI for modal
 import Navbar from '../components/Navbar';
 import Footer from '../components/Footer';
 import { useState } from 'react';
+import { FaVolumeUp } from 'react-icons/fa'; // Importing sound icon
 
 const Lessons = () => {
 
@@ -12,6 +13,13 @@ const Lessons = () => {
     const [selectedWord, setSelectedWord] = useState(null);
     const [modalOpen, setModalOpen] = useState(false);
 
+    // Function to pronounce the word
+    const pronounceWord = (word) => {
+        const utterance = new SpeechSynthesisUtterance(word);
+        console.log(word);
+        utterance.lang = 'ar-SA';
+        window.speechSynthesis.speak(utterance);
+    };
 
     const getCardColor = (difficulty) => {
         switch (difficulty) {
@@ -46,6 +54,16 @@ const Lessons = () => {
                             <p className="text-gray-600"><strong>Meaning:</strong> {word.meaning}</p>
                             <p className="text-gray-600"><strong>Pronunciation:</strong> {word.pronunciation}</p>
                             <p className="text-gray-600"><strong>Part of Speech:</strong> {word.part_of_speech}</p>
+
+                            {/* Add Sound Icon for Pronunciation */}
+                            <button
+                                className="mt-4 flex items-center gap-2 text-gray-600 hover:text-gray-800"
+                                onClick={() => pronounceWord(word.pronunciation)}
+                                 // Pronounce the word on icon click
+                            >
+                                <FaVolumeUp className="text-xl" />
+                                Pronounce
+                            </button>
 
                             <button
                                 className="mt-4 btn btn-primary"
