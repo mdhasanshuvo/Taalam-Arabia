@@ -53,6 +53,11 @@ const Register = () => {
         const hasLowercase = /[a-z]/.test(password);
         const isLongEnough = password.length >= 6;
 
+        setErrorMessage({
+            ...errorMessage,
+            password: ``
+        })
+
         if (!hasUppercase || !hasLowercase || !isLongEnough) {
             setErrorMessage({
                 ...errorMessage,
