@@ -32,7 +32,7 @@ const Home = () => {
                 {/* welcome */}
                 {
                     user && <Typewriter
-                        textStyle={{ fontFamily: 'Arial', color: '#4c1d95', fontSize: '30px', textAlign: 'center', padding: '20px' }}
+                        textStyle={{ fontFamily: 'Arial', color: '#4c1d95', fontSize: '20px', textAlign: 'center', padding: '20px' }}
                         startDelay={100}
                         cursorColor="#3F3D56"
                         multiText={[

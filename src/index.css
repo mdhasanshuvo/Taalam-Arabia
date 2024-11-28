@@ -6,3 +6,11 @@
     background-color: rgb(79, 70, 229) !important;
     color: white !important;
   }  
+
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 50;
+  }

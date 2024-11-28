@@ -20,12 +20,12 @@ const StartLearning = () => {
             <main>
 
                 <div className="bg-gray-100 py-16">
-                    <div className="text-center mb-16">
+                    <div className="text-center mb-16 ">
                         <h1 className="text-4xl font-bold text-gray-800 ">Let’s Learn Arabic</h1>
                         <p className="mt-4 text-xl text-gray-600">Choose a lesson to get started</p>
                     </div>
 
-                    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 px-6">
+                    <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-6 px-6 container mx-auto px-6 ">
                         {
                             (() => {
                                 const lessons = [];
@@ -46,7 +46,7 @@ const StartLearning = () => {
 
                     </div>
 
-                    <div className="mt-16 bg-white p-8 rounded-xl shadow-lg">
+                    <div className="mt-16 bg-white p-8 rounded-xl shadow-lg container mx-auto px-6 ">
                         <h2 className="text-3xl font-bold text-center text-gray-800 mb-8 ">Learn the Alphabet</h2>
                         <div className="aspect-w-16 mb-6">
                             <iframe
