@@ -57,8 +57,6 @@ The purpose of **Taalam Arabia** is to make learning Arabic vocabulary engaging 
 - React Icons: For incorporating icons throughout the site.
 - Speech Synthesis: For pronouncing Arabic words on card click, helping users hear vocabulary.
 
----
-
 ## 🏃 How to Run Locally
 
 ### Prerequisites
