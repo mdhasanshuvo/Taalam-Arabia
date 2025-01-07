@@ -56,3 +56,19 @@ The purpose of **Taalam Arabia** is to make learning Arabic vocabulary engaging 
 - Typewriter Effect: To add dynamic welcome messages.
 - React Icons: For incorporating icons throughout the site.
 - Speech Synthesis: For pronouncing Arabic words on card click, helping users hear vocabulary.
+
+
+## 🏃 How to Run Locally
+
+### Prerequisites
+Ensure you have the following installed on your system:
+- **Node.js** (v14+ recommended)
+- **npm** or **yarn**
+
+### Steps to Run Locally
+
+**Clone the Repository**  
+   Clone the project repository to your local machine:
+   ```bash
+   git clone https://github.com/mdhasanshuvo/Taalam-Arabia.git
+   cd haven-hotel-and-suites
