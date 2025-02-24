@@ -1,4 +1,4 @@
-# Taalam Arabia: A Vocabulary Learning Application  
+# Taalam Arabia: A Vocabulary Learning Applications  
 
 ![Taalam Arabia Banner](https://i.ibb.co.com/VRGbQcx/image.png)  
 
